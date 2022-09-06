@@ -174,7 +174,7 @@ body {
   }
 
   .main-div .clicks-number {
-    font-size: 4rem;
+    font-size: 3.5rem;
   }
 
   .clr-container {
@@ -189,15 +189,15 @@ body {
     height: 88px;
     width: 88px;
     position: relative;
-    bottom: 88px;
+    bottom: 50px;
   }
 
   .last-clr {
-    right: 20px;
+    right: 30px;
   }
 
   .next-clr {
-    left: 20px;
+    left: 30px;
   }
 
   .footer {
