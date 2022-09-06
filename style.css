@@ -41,7 +41,6 @@ body {
   display: grid;
   grid-template-columns: 2fr 1fr 1fr;
   gap: 2em;
-  /* place-self: center; */
   align-items: center;
   height: 100%;
   width: 100%;
@@ -160,24 +159,13 @@ body {
 
   .last-clr,
   .next-clr {
-    height: 125px;
-    width: 125px;
+    height: 100px;
+    width: 100px;
   }
 
   .footer {
     position: fixed;
     bottom: 10px;
-  }
-}
-
-@media (width < 500px) {
-  .last-clr,
-  .next-clr {
-    width: 100px;
-    height: 100px;
-  }
-
-  .footer {
     gap: 5px;
   }
 }
