@@ -188,6 +188,8 @@ body {
   .next-clr {
     height: 88px;
     width: 88px;
+    position: relative;
+    bottom: 75px;
   }
 
   .footer {
