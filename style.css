@@ -12,6 +12,7 @@ body {
   height: 100vh;
   width: 100vw;
   background-color: hotpink;
+  overflow: hidden;
 }
 
 .text {
@@ -126,13 +127,15 @@ body {
   filter: FlipH;
 }
 
-@media (max-width: 768px) {
+@media screen and (max-width: 666px) {
   .header {
-    font-size: 2.5rem;
+    margin: 0 auto;
+    font-size: 2rem;
+    padding-bottom: 15px;
   }
 
   .header-p {
-    padding: 22px;
+    padding: 15px;
   }
 
   .text {
@@ -147,11 +150,15 @@ body {
   .main-div {
     display: flex;
     flex-direction: column;
-    flex-wrap: wrap;
     gap: 1em;
   }
 
+  .main-div .clicks-number {
+    font-size: 4rem;
+  }
+
   .clr-container {
+    display: flex;
     flex-direction: row;
     width: 100%;
     justify-content: space-evenly;
