@@ -189,7 +189,15 @@ body {
     height: 88px;
     width: 88px;
     position: relative;
-    bottom: 100px;
+    bottom: 88px;
+  }
+
+  .last-clr {
+    right: 20px;
+  }
+
+  .next-clr {
+    left: 20px;
   }
 
   .footer {
