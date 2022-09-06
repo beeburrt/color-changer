@@ -68,6 +68,10 @@ body {
   gap: 1.5em;
 }
 
+.clicks-p {
+  text-decoration: underline;
+}
+
 .center .clicks-number {
   font-size: 5rem;
 }
@@ -142,15 +146,20 @@ body {
   .header {
     margin: 0 auto;
     font-size: 2rem;
-    padding-bottom: 15px;
   }
 
   .header-p {
     padding: 15px;
+    margin-bottom: 15px;
   }
 
   .text {
     font-size: 1.5rem;
+  }
+
+  .left .left-p,
+  .left .other-left-p {
+    font-size: 2rem;
   }
 
   .btn {
@@ -177,8 +186,8 @@ body {
 
   .last-clr,
   .next-clr {
-    height: 100px;
-    width: 100px;
+    height: 88px;
+    width: 88px;
   }
 
   .footer {
