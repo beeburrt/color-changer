@@ -4,6 +4,10 @@
   box-sizing: border-box;
 }
 
+:root {
+  --text-shadow: 3px 3px 6px rgba(255, 255, 255, 0.75);
+}
+
 body {
   display: flex;
   flex-direction: column;
@@ -18,14 +22,14 @@ body {
 .text {
   font-size: 2rem;
   text-align: center;
-  text-shadow: 3px 3px 6px rgba(255, 255, 255, 0.75);
+  text-shadow: var(--text-shadow);
 }
 
 .header {
   margin-top: 0.5em;
   font-size: 3rem;
   font-weight: 900;
-  text-shadow: 4px 4px 8px rgba(255, 255, 255, 0.75);
+  text-shadow: var(--text-shadow);
   text-align: center;
 }
 
@@ -121,6 +125,7 @@ body {
   gap: 20px;
   position: fixed;
   bottom: 10px;
+  text-shadow: var(--text-shadow);
 }
 
 .copy-left {

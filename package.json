@@ -1,0 +1,22 @@
+{
+  "name": "color-changer",
+  "version": "1.0.0",
+  "description": "--- Simple site I made for fun and practice.",
+  "main": "main.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/beeburrt/color-changer.git"
+  },
+  "author": "B.Burt beeburrt@outlook.com",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/beeburrt/color-changer/issues"
+  },
+  "homepage": "https://github.com/beeburrt/color-changer#readme",
+  "dependencies": {
+    "chroma-js": "^2.4.2"
+  }
+}
